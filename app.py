@@ -4,6 +4,7 @@ import subprocess
 from datetime import datetime
 import requests
 import pytz
+import pandas as pd
 
 # URL of the API to get the current time
 time_api_url = "http://worldtimeapi.org/api/timezone/Etc/UTC"
